@@ -17,6 +17,7 @@ Binding the AR8000 Receiver:
 6> Hold the trainer/bind button down and power on the controller. Release the trainer bind button when the orange light stops blinking and you get a solid orange light.
 
 The receivers are now binded to that controller. You will have to repeat this process if you want to bind the receiver to a different controller or vise versa.
+
 7>You can now connect the secondary receiver directly to a UART port on a microcontroller or connect to the FTDI board or UART to usb adapter.Orange wire to 3.3v, Black wire to Ground, Grey wire to RX on a UART port.
 
 
@@ -99,7 +100,7 @@ Full code:
 
 Helpful links: 
 https://github.com/samfok/remote_receiver_tutorial
-	         http://darknrgy.typepad.com/darknrgys-blog/2015/02/ar8000-satellite-as-standalone-receiver.html
+http://darknrgy.typepad.com/darknrgys-blog/2015/02/ar8000-satellite-as-standalone-receiver.html
 
 http://www.dogfight.no/2011/01/spectrum-receiver-satellite-to-arduino.html
 
