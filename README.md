@@ -6,7 +6,7 @@ Binding the AR8000 Receiver:
 
 2>turn off controller
 
-![](1.PNG)
+![](screenshots/1.PNG)
 
 3>Insert the bind plug into the bind pins on the main receiver
 
