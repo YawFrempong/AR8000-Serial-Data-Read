@@ -13,16 +13,16 @@ Binding the AR8000 Receiver:
 4>Power the main receiver using a 5v power source, I just used the 4.8v battery pack from
 another dx7s receiver(The operating voltage for the main receiver is 3.5v-9.6v)
 
-![](2.PNG)
+![](screenshots/2.PNG)
 
-![](3.PNG)
+![](screenshots/3.PNG)
 
 5>The unbound receivers should have a blinking orange light now
 
 6> Hold the trainer/bind button down and power on the controller. Release the trainer bind
 button when the orange light stops blinking and you get a solid orange light.
 
-![](4.PNG)
+![](screenshots/4.PNG)
 
 The receivers are now binded to that controller. You will have to repeat this process if you want
 to bind the receiver to a different controller or vise versa.
@@ -35,15 +35,15 @@ the data stream from the USB port and view it as Hex(space) format.
 8>Data is sent in the format: Baud rate 115200, Data bits 8, 1 Stop bit, No Parity, No Flow
 Control
 
-![](5.PNG)
+![](screenshots/5.PNG)
 
-![](6.PNG)
+![](screenshots/6.PNG)
 
 Decimal value of each 2 byte channel:
 
 Example :
 
-![](7.PNG)
+![](screenshots/7.PNG)
 
 Note: The 4 sliders adjust the the range of values by +/- 25%. These values are taken from a
 controller that was calibrated to the center of each slider. Make sure every slider on your controller is
@@ -51,7 +51,7 @@ centered. You’ll hear a beep when it is.
 
 32 Byte Packets are sent each containing 16 channels(2 bytes per channel)
 
-![](8.PNG)
+![](screenshots/8.PNG)
 
 Data is send every 11ms or 22ms depending on the frame rate you set on the controller(hold the
 clear and back button then power on the controller to access the System Setup menu the go to
@@ -61,7 +61,7 @@ Frame Rate and choose when frame rate and mode you want to use. I’d recommend 
 You want to write code to read the serial data in a way that it is aligned properly so you can use the
 correct data. So you have to know when a new packet starts and stops
 
-![](9.PNG)
+![](screenshots/9.PNG)
 
 Note that the sync bytes that tell you when a new packet starts repeats in the same packet twice and
 changed every time you turn the controller on and off. Using the sync bytes to determine the start of
@@ -74,7 +74,7 @@ Read every 22ms in my case.
 
 Some simple code can align the packets in the data stream:
 
-![](10.PNG)
+![](screenshots/10.PNG)
 
 Helpful links:
 https://github.com/samfok/remote_receiver_tutorial
