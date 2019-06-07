@@ -76,6 +76,16 @@ Some simple code can align the packets in the data stream:
 
 ![](screenshots/10.PNG)
 
+Decoded Data:
+
+![](screenshots/screenshot 2.PNG)
+
+Packet Loss Detection:
+
+![](screenshots/screenshot 3.PNG)
+
+
+
 Helpful links:
 https://github.com/samfok/remote_receiver_tutorial
 http://darknrgy.typepad.com/darknrgys-blog/2015/02/ar8000-satellite-as-standalone-receiver.html
