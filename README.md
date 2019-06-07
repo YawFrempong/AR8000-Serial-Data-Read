@@ -78,7 +78,7 @@ Some simple code can align the packets in the data stream:
 
 Decoded Data:
 
-![](screenshots/11.PNG)
+![](screenshots/11.png)
 
 Packet Loss Detection:
 
