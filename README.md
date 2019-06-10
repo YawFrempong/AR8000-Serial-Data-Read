@@ -87,15 +87,16 @@ Packet Loss Detection:
 
 
 Helpful links:
+
 https://github.com/samfok/remote_receiver_tutorial
 
 http://darknrgy.typepad.com/darknrgys-blog/2015/02/ar8000-satellite-as-standalone-receiver.html
 
-http://www.dogfight.no/2011/01/spectrum-receiver-satellite-to-arduino.htm
+http://www.dogfight.no/2011/01/spectrum-receiver-satellite-to-arduino.html
 
 http://darknrgy.typepad.com/darknrgys-blog/2015/02/ar8000-satellite-as-standalone-receiver.html
 
-http://www.dogfight.no/2011/01/spectrum-receiver-satellite-to-arduino.htm
+http://www.dogfight.no/2011/01/spectrum-receiver-satellite-to-arduino.html
 
 
 
