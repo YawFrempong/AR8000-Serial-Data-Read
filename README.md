@@ -19,7 +19,7 @@ another dx7s receiver(The operating voltage for the main receiver is 3.5v-9.6v)
 
 ![](screenshots/2.PNG)
 
-![](screenshots/3.PNG)
+<img src=screenshots/3.PNG width="50%" height="50%">
 
 5>The unbound receivers should have a blinking orange light now
 
@@ -82,7 +82,7 @@ Some simple code can align the packets in the data stream:
 
 Decoded Data:
 
-![](screenshots/11.png)
+<img src=screenshots/11.png width="50%" height="50%">
 
 Packet Loss Detection:
 
