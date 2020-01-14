@@ -5,7 +5,8 @@
 # AR8000-Serial-Data-Read
 This Python code reads data from the the Spektrum Receiver and assigned the decimal value to the appropriate variable
 
-Binding the AR8000 Receiver:
+Binding the AR8000 Receiver
+
 1>Make sure the throttle stick is in the down position
 
 2>turn off controller
